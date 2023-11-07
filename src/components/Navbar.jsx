@@ -4,12 +4,11 @@ import { Link, json } from 'react-router-dom'
 
 const Navbar = () => {
 
-  const [filterText, setFilterText] = useState('');
+   const [filterText, setFilterText] = useState('');
 
   const handleFilterTextChange = (newFilterText) => {
     setFilterText(newFilterText);
   };
-
 
 
   return (
